@@ -1,0 +1,95 @@
+Start at Sunday, May 31, 2009    00:47:13
+=========================================
+
+Registration Info : 
+
+Windows Version:
+Microsoft Windows XP Professional Service Pack 3 (Build 2600)
+
+Module Info:
+Company: fCoder Group, Inc.
+Product Name: ImageConverter Plus
+Product Version: 7.1.47.90206
+
+CPU Info:
+Vendor: GenuineIntel
+Vendor ID: Intel Corporation
+Extended Processor Name: Unknown P6 family
+Procesor Clock Frequecy: 2666
+Logical processors per physical: 4
+Stepping code: 7
+MMX support: yes
+MMX+ support: no
+SSE support: yes
+SSE2 support: yes
+3DNow suppor: no
+3DNow+ suppor: no
+AI64 support: no
+Hyperthreading support: no
+L1 cache size: -1
+L2 cache size: -1
+L3 cache size: -1
+
+Monitor info:
+Color depth: 32 Bits per pixel.
+Pixel Width: 2560
+Pixel Height: 1600
+Refresh frequency: 60 Hz
+
+Internet Explorer Version: 6.0
+Build Number: 2900
+
+Printers list: 
+Send To OneNote 2007
+Microsoft XPS Document Writer
+
+Default printer: 
+Microsoft XPS Document Writer
+
+
+Script settings:
+
+Operations:
+
+Format properties:
+    Extension: png
+    bits per pixel : 32
+    compression level : 5
+    quantization levels : 8
+    dithering : yes
+    use source alpha channel for indexed modes : yes
+
+Save properties:
+    Destination path: {Source path}
+    convert with subfolders : yes
+    restore subfolder structure in target folder : yes
+    open target folder after conversion : yes
+    create log file in target folder : yes
+
+Target file name properties:
+    Name template: {Title}.{Type}
+    what to do, if file exists : auto_rename
+    delete source images : no
+
+Processing files...
+
+=====================================================================
+
+File 1 of 1
+
+RAM free    :    2048.0 of    2048.0 Mb
+Virtual free:    1963.6 of    2047.9 Mb
+Target free disk space :  423367.7 of  476929.7 Mb
+Temp free disk space   :   30385.9 of   60000.5 Mb
+
+Src info : D:\XNA\Dungeon\Demo1\Demo1\Content\Textures\BOX_GREEN.bmp
+bmp, 512x512px, 24bpp, 1 page(s), 96.000000x96.000000 dpi, 786486 bytes
+Load all pages :  ok
+
+Save :  ok
+
+Dest info : D:\XNA\Dungeon\Demo1\Demo1\Content\Textures\BOX_GREEN.png
+png, 512x512px, 32bpp, 1 page(s), 96.000000x96.000000 dpi, 82219 bytes
+
+Complete at Sunday, May 31, 2009    00:47:14
+=========================================

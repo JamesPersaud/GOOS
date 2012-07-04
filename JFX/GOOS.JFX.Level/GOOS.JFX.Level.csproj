@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B809C62F-EA02-4078-A14C-91F0A8F3629F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GOOS.JFX.Level</RootNamespace>
+    <AssemblyName>GOOS.JFX.Level</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=3.0.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline, Version=3.0.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d, processorArchitecture=x86" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DFSMaze\Cell.cs" />
+    <Compile Include="DFSMaze\Maze.cs" />
+    <Compile Include="Enum4PointCompass.cs" />
+    <Compile Include="LevelData.cs" />
+    <Compile Include="LevelEntityData.cs" />
+    <Compile Include="LevelMapData.cs" />
+    <Compile Include="LevelMapGraph.cs" />
+    <Compile Include="LevelMapSquare.cs" />
+    <Compile Include="LevelMapSquareTypeEnum.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandomMapGenerator.cs" />
+    <Compile Include="DFSMaze\WalledMaze.cs" />
+    <Compile Include="DFSMaze\WalledSquare.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EMK.Cartography\EMK.Cartography.csproj">
+      <Project>{34546EB7-05F2-428F-9B5C-ABB9EC7830C6}</Project>
+      <Name>EMK.Cartography</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GOOS.JFX.Core\GOOS.JFX.Core.csproj">
+      <Project>{DAC27488-EF0E-40AB-B3BE-2C3CCA18F7C5}</Project>
+      <Name>GOOS.JFX.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GOOS.JFX.Entity\GOOS.JFX.Entity.csproj">
+      <Project>{470467C1-10C8-4FCB-9953-A12FB7C3DF3A}</Project>
+      <Name>GOOS.JFX.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GOOS.JFX.Scripting\GOOS.JFX.Scripting.csproj">
+      <Project>{AB131E52-3252-4BEA-A74A-F74FDA1AC630}</Project>
+      <Name>GOOS.JFX.Scripting</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
